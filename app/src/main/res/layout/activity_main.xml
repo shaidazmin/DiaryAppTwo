@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10sp"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="com.example.nz.diaryapptwo.MainActivity">
+
+    <TextView
+        android:gravity="center"
+        android:textSize="30sp"
+        android:background="#25a4f2"
+        android:fontFamily="monospace"
+        android:textColor="#000"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="My Diary"
+        android:layout_width="match_parent"
+        android:layout_height="50sp" />
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:textSize="25sp"
+            android:layout_margin="15sp"
+            android:id="@+id/saveButton"
+            android:layout_marginTop="10sp"
+            android:layout_width="170sp"
+            android:layout_height="50sp"
+            android:text="Save"
+            android:textAllCaps="false"
+            android:background="#25a4f2"
+            />
+        <Button
+            android:textSize="25sp"
+            android:layout_margin="15sp"
+            android:id="@+id/deleteButton"
+            android:layout_marginTop="10sp"
+            android:layout_width="170sp"
+            android:layout_height="50sp"
+            android:text="Clear"
+            android:textAllCaps="false"
+            android:background="#25a4f2"
+            />
+
+
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/diaryEditText"
+        android:padding="5sp"
+        android:gravity="start"
+        android:layout_marginTop="10sp"
+        android:background="#25a4f2"
+        android:textSize="20sp"
+        android:hint="Write your wish ..."
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5sp"
+        />
+
+
+
+
+
+
+
+
+</LinearLayout>
